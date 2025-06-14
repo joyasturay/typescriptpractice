@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@prisma/client": "^6.6.0",
     "@supabase/supabase-js": "^2.49.4",
     "@types/express": "^5.0.1",
     "@types/pg": "^8.11.12",
@@ -18,5 +19,11 @@
     "mysql2": "^3.14.0",
     "pg": "^8.14.1",
     "pg-pool": "^3.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "prisma": "^6.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
