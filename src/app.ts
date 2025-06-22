@@ -1,4 +1,11 @@
+import {express} from "express";
+import {z} from "zod";
 
+const app=express();
+app.use(express.json());
+app.get("/",(req,res)=>{
+    res.send("Hello World");
+});
 const x:number=1;
 console.log(x);
 function greet(name:string){
